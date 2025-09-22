@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab 3 – Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Lab3_Styles.css">
+  </head>
+  <body>
+
+    <div class="bar">
+      <h1>Lab 3 – Rock Paper Scissors</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="https://x.com/itsmebelb/status/1969595594663739506" target="_blank" rel="noopener noreferrer">X(twitter)</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+        <li><a href="https://scripterswar.com/hollowknight/map" target="_blank" rel="noopener noreferrer">Campus Map</a></li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <section class="main">
+        <h2>Please choose one of the following.</h2>
+
+        <form onsubmit="event.preventDefault();">
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" required />
+
+  <div class="sp"></div>
+
+  <label for="choice">Your choice:</label>
+  <select id="choice" name="choice">
+    <option>Rock</option>
+    <option>Paper</option>
+    <option>Scissors</option>
+  </select>
+
+  <div class="sp"></div>
+
+  <input type="submit" value="Submit" />
+</form>
+
+
+
+      </section>
+
+      <aside class="side">
+        <h3>Rules</h3>
+        <p>You must choose Rock, Paper or Scissors</p>
+        <p><strong>The Combos are as follows:</strong></p>
+        <ul>
+          <li>Rock beats Scissors</li>
+          <li>Scissors beats Paper</li>
+          <li>Paper beats Rock</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="bar">
+      <p>This is a footer with a fun fact, water is not wet</p>
+    </div>
+
+  </body>
+
+
+</html>
